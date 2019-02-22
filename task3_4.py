@@ -3,8 +3,7 @@ import matplotlib.pyplot
 from matplotlib import pyplot as plt
 from copy import deepcopy
 import cv2 as cv2
-UBIT = "tkaushik"
-np.random.seed(sum([ord(c) for c in UBIT]))
+
 
 def imagequant(k):
     #Reading the image and initialising random centroids
